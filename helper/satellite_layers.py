@@ -63,7 +63,7 @@ class SatelliteDataLayer(caffe.Layer):
     def backward(self, top, propagate_down, bottom):
         pass
 
-    def load_image(self, idx, p = 0):
+    def load_image(self, idx):
         """
         Load input image and preprocess for Caffe:
         - cast to float
