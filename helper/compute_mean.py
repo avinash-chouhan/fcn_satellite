@@ -2,7 +2,6 @@ import os, PIL
 import numpy as np
 from PIL import Image
 
-# n = 20 to avoid whitespace issues in sat images
 def compute_mean(my_dir):
 
 	allfiles=os.listdir(my_dir)
