@@ -25,4 +25,4 @@ def mean_filt_white(my_img):
 		avg[ch] = my_img[white_map,ch].mean()
 	return avg
 
-compute_mean('data/mass_merged/train/sat/')
+compute_mean('../data/mass_merged/train/sat/')
